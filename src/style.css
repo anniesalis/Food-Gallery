@@ -2,11 +2,10 @@ button {
     font-size: 14px;
     display: block;
     margin: auto;
-    padding: 10px 15px;
-
+    padding: 20px 20px;
     border-radius: 40px;
     color: #fff;
-    background: #060101;
+    background: #2e0808;
     cursor: pointer;
 
     margin: 0 auto;
@@ -116,13 +115,6 @@ button {
   }
 
   .join {
-    font-size: 16px;
-    padding: 20px 20px;
-    background: #1c1824;
-    border: 5px;
-
-    border-radius: 50px;
-    margin-bottom: 15px;
-    cursor: pointer;
-    color: rgb(251, 245, 238);
+text-decoration: none;
+color: whitesmoke;
   }
