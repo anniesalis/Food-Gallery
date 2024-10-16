@@ -1,0 +1,128 @@
+button {
+    font-size: 14px;
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+
+    border-radius: 40px;
+    color: #fff;
+    background: #060101;
+    cursor: pointer;
+
+    margin: 0 auto;
+    transition: all 150ms ease-in-out;
+  }
+
+  button:hover {
+    color: #1c1824;
+    background: #fff;
+  }
+  h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 100;
+    font-family: fantasy;
+  }
+  h2 {
+    text-align: center;
+  }
+  body {
+    background: linear-gradient(
+      to right,
+      rgb(182, 244, 146),
+      rgb(51, 139, 147)
+    );
+  }
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: 20px 30px;
+  }
+  footer {
+    margin: 30px;
+    text-decoration: none;
+    font-weight: 100;
+    font-stretch: wider;
+    opacity: 0.7;
+    font-family: monospace;
+  }
+  .dark {
+    background: black;
+    color: white;
+  }
+  .dark a {
+    color: powderblue;
+  }
+  .dark .container {
+    background: #060101;
+  }
+  .dark {
+    color: #fff;
+  }
+  .image1salad {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: all 200ms ease-in-out;
+    animation: linear;
+  }
+
+  .image1salad:hover {
+    filter: contrast(80%);
+    transform: scale(1.1);
+  }
+
+  .grid {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid img {
+    width: 100%;
+    height: 150px;
+    transition: all 200ms ease-in-out;
+    border-radius: 10px;
+  }
+  .image2Hamburger:hover {
+    transform: scale(1.2);
+    transition: all 200ms ease-in-out;
+  }
+  .image3salmon:hover {
+    transform: scale(1.2);
+  }
+  .image4watermelon:hover {
+    transform: rotate(30deg);
+  }
+  .image4watermelon {
+    transition: all 200ms ease-in-out;
+    border: #1c1824;
+    border-color: #1c1824;
+  }
+  .image5kebab:hover {
+    transform: scale(1.1);
+    filter: contrast(50%);
+  }
+
+  .container {
+    max-width: 600px;
+
+    max-height: 100%;
+    margin: 0 auto;
+    background: rgb(244, 239, 230);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .join {
+    font-size: 16px;
+    padding: 20px 20px;
+    background: #1c1824;
+    border: 5px;
+
+    border-radius: 50px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: rgb(251, 245, 238);
+  }
